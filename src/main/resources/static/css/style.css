@@ -1,0 +1,108 @@
+/* ===== GLOBAL ===== */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #f8f9fa !important;
+}
+
+/* ===== CARDS ===== */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== TABLES ===== */
+.table {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    background-color: white;
+}
+
+.table thead th {
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-size: 0.9rem;
+}
+
+.table tbody tr {
+    transition: background-color 0.15s ease;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn-dark {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+}
+
+.btn-dark:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+/* ===== FORMS ===== */
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #1a1a1a;
+    box-shadow: 0 0 0 3px rgba(26, 26, 26, 0.1);
+}
+
+.form-label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+/* ===== PAGE HEADERS ===== */
+h2 {
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+/* ===== BADGES ===== */
+.badge {
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+/* ===== STAT CARDS (homepage) ===== */
+.stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+}
