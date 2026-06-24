@@ -27,6 +27,10 @@ public class ServiceRecord {
         return id;
     }
 
+    public Motorcycle getMotorcycle(){
+        return motorcycle;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
